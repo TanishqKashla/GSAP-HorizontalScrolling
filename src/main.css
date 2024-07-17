@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: rgb(26, 26, 26);
+    font-family: 'CabinetGrotesk-Variable';
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 38vw;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.first-section {
+    height: 70vh;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.scroll-section {
+    width: 470vw;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.card {
+    position: absolute;
+    height: 20vw;
+    border-radius: 20px;
+    top: 0;
+
+}
+
+#card-1 {
+    top: 10%;
+    left: 20%;
+}
+
+#card-2 {
+    top: 40%;
+    left: 35%;
+}
+
+#card-3 {
+    top: 50%;
+    left: 50%;
+}
+
+#card-4 {
+    top: 50%;
+    left: 75%;
+}
+
+#card-5 {
+    top: 60%;
+    left: 90%;
+}
+
+.footer {
+    background-color: rgb(26, 26, 26);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.footer h2 {
+    font-size: 7vw;
+    margin-bottom: 30px;
+}
+
+.footer p {
+    font-size: 4vw;
+}
+
+@media (max-width: 900px) {
+    .scroll-section {
+        padding-top: 20em;
+    }
+
+    #card-1 {
+        top: 60%;
+        left: 20%;
+    }
+
+    #card-2 {
+        top: 80%;
+        left: 35%;
+    }
+
+    #card-3 {
+        top: 70%;
+        left: 50%;
+    }
+
+    #card-4 {
+        top: 80%;
+        left: 75%;
+    }
+
+    #card-5 {
+        top: 60%;
+        left: 90%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'CabinetGrotesk-Thin';
+    src: url('../fonts/CabinetGrotesk-Thin.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Thin.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CabinetGrotesk-Extralight';
+    src: url('../fonts/CabinetGrotesk-Extralight.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Extralight.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CabinetGrotesk-Light';
+    src: url('../fonts/CabinetGrotesk-Light.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Light.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CabinetGrotesk-Regular';
+    src: url('../fonts/CabinetGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Regular.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CabinetGrotesk-Medium';
+    src: url('../fonts/CabinetGrotesk-Medium.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Medium.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CabinetGrotesk-Bold';
+    src: url('../fonts/CabinetGrotesk-Bold.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Bold.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CabinetGrotesk-Extrabold';
+    src: url('../fonts/CabinetGrotesk-Extrabold.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Extrabold.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CabinetGrotesk-Black';
+    src: url('../fonts/CabinetGrotesk-Black.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Black.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 100.0 to 900.0
+*/
+@font-face {
+    font-family: 'CabinetGrotesk-Variable';
+    src: url('../fonts/CabinetGrotesk-Variable.woff2') format('woff2'),
+        url('../fonts/CabinetGrotesk-Variable.woff') format('woff'),
+        url('../fonts/CabinetGrotesk-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
