@@ -34,7 +34,7 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/horizontal-scrolling-gsap.git
+   git clone https://github.com/TanishqKashla/GSAP-HorizontalScrolling
    cd horizontal-scrolling-gsap
    ```
 2. **Open the project:**
